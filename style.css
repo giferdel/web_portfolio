@@ -1,0 +1,110 @@
+/* .principal{
+    justify-items: center;
+    align-items: center;
+} */
+
+/* Barra de Navegación */
+
+.navbar {
+    padding: 1rem;
+    /* background-color: rgb(88, 87, 88); */
+    background-image: url(https://images.wallpaperscraft.com/image/single/form_light_abstraction_bright_76089_1680x1050.jpg);
+}
+.navbar-collapse {
+    border-radius: 0.5rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos Generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+h1 {
+    font-size: 2.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Passions Conflict', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Passions Conflict', cursive; */    
+}
+
+.seccion-oscura {              /*SECCION SOBRE-MI*/
+    color: antiquewhite;
+    background-color: rgb(12, 12, 32);
+}
+
+.seccion-titulo {
+    font-size: 3rem;
+    padding: 15px 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+/* Section Hero */
+.hero {
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: rgb(31, 30, 30);
+}
+.hero-imagen {
+    width: 700px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0px;
+    background-color: white;
+}
+.hero-inferior-imagen {
+    height: 300px;
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Sobre Mi */
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.sobre-mi .contenedor .fotografia {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+        /* height: 300px; */
+    }
+}
