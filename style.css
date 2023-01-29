@@ -80,7 +80,7 @@ h1 {
 
 /* Section Hero */
 .hero {
-    background-color: white;
+    background-color: rgb(175, 5, 5);
     min-height: 450px;
     text-align: center;
     color: rgb(61, 61, 61);
