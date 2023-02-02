@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.navbar-collapse img {
+    align-items: center;
+}
 
 /* Estilos Generales */
 section {
