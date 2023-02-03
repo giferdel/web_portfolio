@@ -376,6 +376,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .badges-contenedor {
+        margin-top: 3px;
+    }
+}
+
 @media screen and (min-width: 500px) {
     .seccion-texto {
         max-width: 600px;
