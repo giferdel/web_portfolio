@@ -11,6 +11,7 @@
     background-image: url(https://images.wallpaperscraft.com/image/single/form_light_abstraction_bright_76089_1680x1050.jpg);
 }
 .navbar-collapse {
+    margin: 10px;
     border-radius: 0.5rem;
     background-color: white;
     align-items: center;
