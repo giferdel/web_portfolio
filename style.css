@@ -30,11 +30,18 @@
     padding: 0;
     width: 100%;
     /* border-radius: 0.5rem; */
-    background-color: #ffffff7d;
+    background-color: #ffffff9d;
     align-items: center;
     justify-content: space-between;
 }
-
+.container-fluid .navbar-toggler {
+    margin: 10px 10px;
+    color: #1b1b32;
+    background-color: #ffffff7d;
+}
+.navbar-nav a {
+    font-weight: bold;
+}
 
 /* Estilos Generales */
 
