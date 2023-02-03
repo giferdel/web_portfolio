@@ -6,7 +6,7 @@
 /* Barra de Navegación */
 
 .navbar {
-    padding: 1rem;
+    padding: 2rem;
     /* background-color: rgb(88, 87, 88); */
     background-image: url(https://images.wallpaperscraft.com/image/single/form_light_abstraction_bright_76089_1680x1050.jpg);
 }
@@ -19,6 +19,7 @@
 
 
 /* Estilos Generales */
+
 section {
     display: flex;
     flex-direction: column;
@@ -99,7 +100,6 @@ h1 {
     height: 300px;
     border-radius: 50%;
     margin: 20px;
-    padding: 10px;
     background-color: white;
 }
 .hero-inferior-imagen {
@@ -115,8 +115,9 @@ h1 {
     padding: 10px;
 }
 .sobre-mi .contenedor {
-    max-width: 700px;
-    max-height: 600px;
+    /* max-width: 700px;
+    max-height: 600px; */
+    max-width: 600px;
     text-align: center;
     justify-content: center;
 }
@@ -128,15 +129,15 @@ h1 {
 
 /* Experiencia */
 .experiencia{
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 }
 
 .experiencia .columna {
-    /* padding: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;  */
+    justify-content: space-evenly; 
     transition: all 0.2s ease-in;
 }
 
@@ -326,9 +327,10 @@ footer {
 }
 /* Responsive */
 
-@media screen and (max-width:767px) {
+
+@media screen and (max-width:700px) {
     .navbar-brand {
-        display: flex;
+        display: none;
     }
 }
 
