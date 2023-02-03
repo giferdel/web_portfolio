@@ -2,18 +2,35 @@
     justify-items: center;
     align-items: center;
 } */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 
 /* Barra de Navegación */
 
 .navbar {
-    padding: 2rem;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
     /* background-color: rgb(88, 87, 88); */
-    background-image: url(https://images.wallpaperscraft.com/image/single/form_light_abstraction_bright_76089_1680x1050.jpg);
+    /* background-image: url(https://images.wallpaperscraft.com/image/single/form_light_abstraction_bright_76089_1680x1050.jpg); */
+}
+.navbar .container-fluid {
+    padding: 0;
 }
 .navbar-collapse {
-    margin: 10px;
-    border-radius: 0.5rem;
-    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* border-radius: 0.5rem; */
+    background-color: #ffffff7d;
     align-items: center;
     justify-content: space-between;
 }
@@ -90,25 +107,35 @@ h1 {
 }
 
 .hero-principal {
-    padding: 3rem;
+    width: 100%;
+    padding:0;
+    margin: 0;
 }
+
 .hero-principal h2 {
     font-size: 1.5rem;
     color: rgb(31, 30, 30);
 }
-.hero-imagen {
-    width: 700px;
-    height: 300px;
-    border-radius: 50%;
-    margin: 20px;
+.hero-principal .hero-imagen {
+    width: 100%;
+    margin: 0px;
+    filter: brightness(50%);
+}
+.hero-principal {
+    width: 100%;
+    padding: 0%;
+    margin-top: 0rem;
     background-color: white;
+    /* box-shadow: 0px 0px 4px 0px rgb(78, 78, 78); */
 }
 .hero-inferior-imagen {
     height: 300px;
     width: 700px;
     margin: 0px;
     padding: 0px;
+    align-items: baseline;
 }
+
 
 /* Sobre Mi */
 .sobre-mi {
@@ -134,11 +161,11 @@ h1 {
 }
 
 .experiencia .columna {
-    padding: 20px;
+    /* padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;  */
     transition: all 0.2s ease-in;
 }
 
@@ -329,13 +356,13 @@ footer {
 /* Responsive */
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .navbar-brand {
         display: none;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .hero-inferior-imagen {
         max-width: 600px;
         /* height: 300px; */
